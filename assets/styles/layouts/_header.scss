@@ -1,0 +1,46 @@
+.no-js {
+    // @include breakpoint(small only) {
+    //     .top-bar {
+    //         display: none;
+    //     }
+    // }
+
+    // @include breakpoint(medium) {
+    //     .title-bar {
+    //         display: none;
+    //     }
+    // }
+}
+
+.header {
+
+    // &__title-bar {
+    //     @extend .title-bar;
+    // }
+
+    // &__title-bar-title {
+    //     @extend .title-bar-title;
+    // }
+
+    // &__top-bar {
+    //     @extend .top-bar;
+    //     background-color: transparent;
+    //     ul {
+    //         background-color: transparent;
+    //     }
+    // }
+
+    // &__top-bar-left {
+    //     @extend .top-bar-left;
+    // }
+
+    // &__top-bar-right {
+    //     @extend .top-bar-right;
+    // }
+
+    // &__dropdown-menu {
+    //     @extend .menu;
+    //     @extend .dropdown;
+    // }
+
+}

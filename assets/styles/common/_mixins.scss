@@ -1,0 +1,31 @@
+@mixin aspect-ratio($width, $height) {
+	position: relative;
+	&:before {
+		display: block;
+		content: "";
+		width: 100%;
+		padding-top: ($height / $width) * 100%;
+	}
+}
+
+@mixin placeholder {
+	&.placeholder { @content; }
+	&:-moz-placeholder { @content; }
+	&::-moz-placeholder { @content; }
+	&::-webkit-input-placeholder { @content; }
+}
+
+@mixin link-transition {
+    transition: color .25s ease-out, background-color .25s ease-out, border .25s ease-out;
+}
+
+@mixin centerer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin mainTransitions {
+    transition: background-color 0.25s ease-out, color 0.25s ease-out, border .25s ease-out, opacity .25s ease-out;
+}

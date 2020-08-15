@@ -1,0 +1,32 @@
+@import "./settings/settings";
+@import '~bootstrap/scss/bootstrap.scss';
+// font awesome
+@import '~font-awesome/scss/font-awesome';
+// aos
+@import '~aos/src/sass/aos';
+// common
+@import "./common/mixins";
+@import "./common/variables";
+@import "./common/global";
+@import "./common/type";
+
+// @import "./components/buttons";
+// @import "./components/comments";
+// @import "./components/reveal";
+// @import "./components/forms";
+// @import "./components/grid";
+// @import "./components/wp-classes";
+// @import "./components/owl";
+// @import "./components/instagram-list";
+//
+//layouts
+@import "./layouts/header";
+@import "./layouts/sidebar";
+@import "./layouts/footer";
+@import "./layouts/pages";
+@import "./layouts/posts";
+@import "./layouts/tinymce";
+
+body {
+	background: red;
+}
